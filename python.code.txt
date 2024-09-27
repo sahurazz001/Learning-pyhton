@@ -1,0 +1,357 @@
+# a = int(input("Enter a first: "))
+# b = int(input("Enter a second: "))
+
+# print (a >=b)   
+
+# lacture 2......................................\|
+
+# strint-----
+
+# str1 = "this is a first number.\tand Eter a second number."
+
+# print(str1)
+
+#'''''''''''''''''''''''' Indecxing  .....................
+
+# str ="atal bihari collage "
+
+# sd = str[3]
+# print(sd)
+
+
+# raj = str(input("enter a first name: "))
+# print(len(raj))
+
+# ....................Conditional Statment.............
+
+# marks = int(input("Enter student maks: "))
+
+# if(marks >=90):
+#     grad = "A"
+
+# elif(marks >=80 and marks < 90):
+#     grad = "B"
+
+# elif(marks >=70 and marks <80):
+#     grad = "c"
+
+# else:
+#     grad = "D"    
+
+
+# print("grad of the student: ",grad )   
+
+# ..............nasted.................
+
+# age = int(input("enter a number: "))
+
+# if(age >= 18):
+#     if(age >=80):
+#         print("cannot drive")
+#     print("can drive")
+
+# else:
+#     print("cannot drive")
+
+# print(print)    
+
+
+# age = int(input("ENter a number"))
+
+# if(age >= 18):
+#     if(age >= 80):
+#         print("cannot drive")
+#     print("can drive")
+# else:
+#     print("cannot drive")    
+
+# print(print)    
+
+
+
+# ..................even and odd..............
+
+# num = int(input("Ener a number: "))
+
+# raj = num %2
+
+# if(raj == 0):
+#     print("EVEN NUMBER")
+# else:
+#     print("odd number")    
+# print(print)    
+
+
+# .......................................
+
+
+
+# ..three input num..show Larges num..........
+
+
+# a = int(input("Enput a First Number"))
+# b = int(input("Enput a Secocnd Number"))
+# c = int(input("Enput a third Number"))
+
+# if( a >= b and a >= c ):
+#     print("First Number is Largges")
+# if(b >= c):
+#     print("second num. Larges")    
+# else:
+#     print("third nuumber Laarges")    
+# print(print)    
+
+# ................................................
+
+
+# check if a number is a multiple of 7 or not.....
+
+
+# a = int(input("Enter a Number"))
+
+# if(a%7==0):
+#     print("yes Multiple")
+
+# else:
+#     pirnt("not Multiple")  
+
+# print(print)      
+
+# ..............................................
+
+
+
+#................# List & Tuple..............
+
+# student = ["rakfds", 95.5,]
+
+# print(student)
+
+# a = ["raj sahu",4555,"gdhhd",10]
+
+# print(a[0])
+# a[0] = "ravi sahu"
+# print(a)
+
+
+# Marks = [85,52,46,85,55]
+
+# print(Marks[0:3])
+# .............................................................
+
+# ...............LIst me jodna..................
+
+# list = [1,2,3,45]
+# # list.append(12)
+# list.reverse()
+# print(list)
+# ...............................................
+
+
+# ...........Insert List........................
+
+# LIst = [42,5,5,5]
+# LIst.insert(1,20)
+# print(LIst)
+
+# ..........................................
+                    #  |
+# ....................tuple...................
+
+# tup = (4,5,5,5,)
+# print(tup)
+# print(type(tup))
+# .................................................
+
+# ....input a 3 movie and list form..................
+
+# movie = []
+# list1 = str(input("first movie name"))
+
+# list2 = str(input("Second movie name"))
+
+# list3 = str(input("third movie name"))
+
+# movie.append(list1)
+# movie.append(list2)
+# movie.append(list3)
+
+# print(movie)
+# .....................................................
+
+# a = 5
+# b = 4
+
+# print(a%b)
+
+# x = 30
+
+# y = 7
+
+# z= x=y//-2
+
+# print("harish")
+# num = int(input("ENter anumber : "))
+
+# if (num % 2 ==0):
+#     print("Even nu.")
+# else:
+#     print("odd num.")    
+
+
+# a = int(input("Ennter a number"))
+# b = int(input("ENter a second number"))
+# c = int(input("Enter a third number"))
+# d = int(input("Enter a forth walue"))
+
+# if(a > b and a>c and a>d):
+#     print("first Larges")
+# if(b > c and b>d and b>a):
+#     print("second value Laeeges")
+# if(c > d and c>b and c>a):
+#     print("third value Larges") 
+          
+# if (d>a and d>b and a>c):
+#     print("Four value Larges")
+
+
+
+# info = {
+#     "name" : "raj sahu",
+#     "subject" : ["math,os,se"],
+# }
+
+# info["name"] = "apna colege"
+# print(info)
+
+
+# null_dict={}
+# null_dict["naem"] = "raj sahu"
+# print(null_dict)
+
+# student = {
+#     "name ": "rahul kumar sahu",
+#     "subject" : {
+#         "math" : 87,
+#         "py" : 65,
+#         "hindi" : 96,
+#     }
+# }
+# print(student["subject"])  
+
+
+# collection = set()
+# collection.add(1)
+# collection.add(5)
+# collection.add(9)
+
+# collection.clear
+# print(type(collection))
+# print(len(collection))
+
+# subject = {
+#     "pythin","java","c++","python","javascript",
+#     "java","python","java","c++","c"
+# }
+# print(subject)
+
+# count = 1
+# while(count <=5):
+#     print("hello")
+#     count +=1
+
+# count = 1
+
+# while(count <= 100):
+#     print("raj sahu")
+#     count += 1
+
+# count = 10
+
+# while(count <11):
+#     print(count)
+#     count -= 1
+# i = 100
+
+# while i >= 1:
+#     print(i)
+#     i -= 1
+
+# n = 1
+# while(n<=10):
+#     print(n*3)
+#     n +=1
+
+# num = [1,39,30,27,8,9]
+
+# idx = 0
+# while idx< len(num):
+#     print(num[idx])
+#     idx += 1
+
+
+# tuple = (1,4,9,165,96,52)
+
+# i = 0
+# while i< len(tuple):
+#     print(tuple[i])
+#     i += 1
+
+# num = (1,55,2,4,5,6,5878,)
+
+# raj = 0
+# while raj<len(num):
+#     print(num[raj])
+#     raj+=1
+
+
+# tuple = (4,56,45,5,58,52)
+
+# x = 45
+# i = 0
+# while i <len(tuple):
+#     if(tuple[i] == x):
+#      print(i)
+#     i +=1       
+
+# num = (56,5491,12,1,5,8,5)
+
+# x = 8
+# i = 0
+# while i<len(num):
+#     if(num[i] == x):
+#         print(i)
+#     i+= 1    
+
+# num = [4,45,45,1,5,8]
+
+# i = 0
+
+# while i<len(num):
+#     print(num[i])
+#     i += 1
+
+# num = 1
+# while (num <100):
+    
+#     if(num ==80):
+#         num += 1
+#         continue
+#     print(num)
+#     num += 1
+
+
+# num = 1
+
+# while num <= 5:
+#     print(num)
+#     if(num == 3):
+#         break
+#     num += 1
+
+# num = 1
+
+# while num <= 10:
+#     print(num*2)
+#     num +=1
+
